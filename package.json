@@ -1,0 +1,18 @@
+{
+  "name": "daily-check-in",
+  "version": "1.0.0",
+  "description": "Provides automated DAILY CHCEK-IN service",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "mysql2": "^3.5.1",
+    "node-cron": "^3.0.2",
+    "sequelize": "^6.32.1",
+    "uuid": "^9.0.0"
+  }
+}
